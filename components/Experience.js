@@ -71,25 +71,37 @@ export default function Experience() {
           </ul>
         </div>
 
-        <Reveal delay={100}>
-          <div className="relative aspect-square overflow-hidden rounded-sm shadow-card">
-            <svg viewBox="0 0 400 400" preserveAspectRatio="xMidYMid slice" className="h-full w-full">
-              <rect width="400" height="400" fill="#C6982F" />
-              <rect x="0" y="260" width="400" height="140" fill="#8C6A24" />
-              <g stroke="#2A2118" strokeWidth="2" opacity="0.5">
-                <line x1="40" y1="260" x2="40" y2="400" />
-                <line x1="140" y1="260" x2="140" y2="400" />
-                <line x1="260" y1="260" x2="260" y2="400" />
-                <line x1="360" y1="260" x2="360" y2="400" />
-              </g>
-              <rect x="60" y="180" width="100" height="80" fill="#F3E8CE" />
-              <rect x="240" y="180" width="100" height="80" fill="#F3E8CE" />
-              <circle cx="110" cy="220" r="26" fill="#336B7A" opacity="0.5" />
-              <circle cx="290" cy="220" r="26" fill="#B8451F" opacity="0.5" />
-              <rect x="0" y="140" width="400" height="40" fill="#2A2118" opacity="0.15" />
-            </svg>
-          </div>
-        </Reveal>
+
+              <Reveal delay={120} className="mx-auto w-full max-w-[420px]">
+  <div className="relative aspect-[4/5] overflow-hidden rounded-sm shadow-card">
+
+   <Image
+  src="/images/experience/experience.jpeg"
+  alt="New Iona's Restaurant"
+  fill
+  className="object-cover"
+/>
+
+    <div className="absolute inset-x-0 bottom-0 h-[46%] bg-gradient-to-t from-black/25 to-transparent" />
+
+    <div className="absolute inset-x-5 bottom-5 flex items-end justify-between font-mono text-[11px] text-paperLight">
+      <div>
+        <strong className="mb-1 block font-display text-lg font-semibold not-italic">
+          Mabini St. corner
+        </strong>
+        Poblacion 38, Infanta
+      </div>
+
+      <div>
+        6AM–8PM
+      </div>
+
+    </div>
+
+  </div>
+</Reveal>
+
+              
       </div>
     </section>
   );
