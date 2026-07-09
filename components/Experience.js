@@ -62,9 +62,9 @@ export default function Experience() {
             {points.map((p, i) => (
               <Reveal key={p.text} delay={140 + i * 60}>
                 <li className="flex items-start gap-3.5 text-[15.5px] text-inkSoft">
-                  <svg width="20" height="20" viewBox="0 0 24 24" className="mt-0.5 flex-shrink-0 text-forest">
-                    {p.icon}
-                  </svg>
+
+
+  
                   {p.text}
                 </li>
               </Reveal>
