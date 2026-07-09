@@ -70,34 +70,13 @@ export default function Hero() {
 
         <Reveal delay={120} className="mx-auto w-full max-w-[420px]">
           <div className="relative aspect-[4/5] overflow-hidden rounded-sm shadow-card">
-            <svg viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" className="h-full w-full">
-              <defs>
-                <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="0%" stopColor="#336B7A" />
-                  <stop offset="55%" stopColor="#2F5233" />
-                </linearGradient>
-              </defs>
-              <rect width="400" height="500" fill="url(#sky)" />
-              <polygon points="0,230 90,120 160,230" fill="#264428" opacity="0.85" />
-              <polygon points="120,230 220,90 320,230" fill="#1B3020" opacity="0.9" />
-              <polygon points="260,230 340,150 400,230" fill="#264428" opacity="0.85" />
-              <rect x="0" y="225" width="400" height="20" fill="#16260F" />
-              <rect x="0" y="245" width="400" height="255" fill="#F3E8CE" />
-              <g opacity="0.5">
-                <rect x="20" y="270" width="360" height="1" fill="#C6982F" />
-                <rect x="20" y="330" width="360" height="1" fill="#C6982F" />
-                <rect x="20" y="390" width="360" height="1" fill="#C6982F" />
-                <rect x="20" y="450" width="360" height="1" fill="#C6982F" />
-              </g>
-              <circle cx="200" cy="360" r="70" fill="#B8451F" opacity="0.13" />
-              <circle cx="200" cy="360" r="46" fill="none" stroke="#B8451F" strokeWidth="2" />
-              <text x="200" y="352" textAnchor="middle" fontFamily="Fraunces, serif" fontWeight="700" fontSize="26" fill="#B8451F">
-                1977
-              </text>
-              <text x="200" y="374" textAnchor="middle" fontFamily="'Space Mono', monospace" fontSize="9" letterSpacing="2" fill="#2A2118">
-                ESTABLISHED
-              </text>
-            </svg>
+
+            <img
+                  src="public/images/hero-restaurant.jpg"
+                    alt="Restaurant"
+                  className="h-full w-full object-cover"
+                          />
+              
             <div className="absolute inset-x-0 bottom-0 h-[46%] bg-gradient-to-t from-black/25 to-transparent" />
             <div className="absolute inset-x-5 bottom-5 flex items-end justify-between font-mono text-[11px] text-paperLight">
               <div>
