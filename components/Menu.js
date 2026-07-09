@@ -20,6 +20,7 @@ const dishes = [
     category: "Mains",
     price: "₱170",
     tone: "pacific",
+    image: "/images/menu/batukarit_sisig.jpeg",
     desc: "Sizzling sisig made with batukarit, a local snail found throughout Infanta — bold, savory, and a bite you won't find outside town.",
   },
   {
