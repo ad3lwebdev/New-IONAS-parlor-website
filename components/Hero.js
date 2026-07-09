@@ -17,10 +17,10 @@ export default function Hero() {
             </div>
             <div className="flex items-center gap-2 font-mono text-xs text-inkSoft">
 
-           <img src="public/images/hero-restaurant.jpg"
-                   alt="Restaurant"
-                className="h-full w-full object-cover" />
-
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+              <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="1.6" />
+              <path d="M12 7v5l3.5 2" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+            </svg>
                   
               Poblacion 38 &middot; Infanta, Quezon
             </div>
