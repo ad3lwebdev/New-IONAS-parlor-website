@@ -1,12 +1,30 @@
 import Reveal from "./Reveal";
-
+import Image from "next/image";
 const shots = [
-  { label: "Dining Room", color: "#2F5233" },
-  { label: "Carabeef Steak", color: "#B8451F" },
-  { label: "Batukarit Sisig", color: "#336B7A" },
-  { label: "Sinigang na Isda", color: "#C6982F" },
-  { label: "Pako Omelette", color: "#2A2118" },
-  { label: "Sierra Madre Backdrop", color: "#5B4E3F" },
+  {
+    label: "Dining Room",
+    image: "/images/gallery/dining.jpeg",
+  },
+  {
+    label: "Carabeef Steak",
+    image: "/images/gallery/carabeef.jpeg",
+  },
+  {
+    label: "Batukarit Sisig",
+    image: "/images/gallery/sisig.jpeg",
+  },
+  {
+    label: "Sinigang na Isda",
+    image: "/images/gallery/sinigang.jpeg",
+  },
+  {
+    label: "Pako Omelette",
+    image: "/images/gallery/omelete.jpeg",
+  },
+  {
+    label: "Sierra Madre Backdrop",
+    image: "/images/gallery/shiera.jpeg",
+  },
 ];
 
 export default function Gallery() {
@@ -40,12 +58,18 @@ export default function Gallery() {
               className={`${i % 2 === 0 ? "rotate-[-2deg]" : "rotate-[2deg]"} transition-transform duration-300 hover:z-10 hover:rotate-0 hover:-translate-y-1 hover:scale-[1.03]`}
             >
               <figure className="rounded-sm border border-line bg-white p-2.5 pb-8 shadow-soft">
-                <div
-                  className="relative flex aspect-square items-center justify-center overflow-hidden"
-                  style={{ backgroundColor: s.color }}
-                >
-                  <div className="h-16 w-16 rounded-full bg-paperLight/90" />
-                </div>
+
+              
+               <div className="relative aspect-square overflow-hidden">
+                <Image
+                  src={s.image}
+                  alt={s.label}
+                  fill
+                  className="object-cover"
+                        />
+                  </div>
+
+      
                 <figcaption className="mt-2 text-center font-mono text-[10.5px] tracking-wide text-inkSoft">
                   {s.label}
                 </figcaption>
