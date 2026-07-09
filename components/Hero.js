@@ -72,7 +72,7 @@ export default function Hero() {
   <div className="relative aspect-[4/5] overflow-hidden rounded-sm shadow-card">
 
     <img
-      src="public/images/hero/hero-restaurant.jpeg"
+      src="/images/hero/hero-restaurant.jpeg"
       alt="New Iona's Restaurant"
       className="h-full w-full object-cover"
     />
