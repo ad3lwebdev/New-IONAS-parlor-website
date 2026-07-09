@@ -1,5 +1,5 @@
 import Reveal from "./Reveal";
-
+import Image from "next/image";
 export default function Hero() {
   return (
     <section className="relative overflow-hidden pb-16 pt-20 md:pb-24 md:pt-24">
@@ -71,11 +71,12 @@ export default function Hero() {
        <Reveal delay={120} className="mx-auto w-full max-w-[420px]">
   <div className="relative aspect-[4/5] overflow-hidden rounded-sm shadow-card">
 
-    <img
-      src="/images/hero/hero-restaurant.jpeg"
-      alt="New Iona's Restaurant"
-      className="h-full w-full object-cover"
-    />
+   <Image
+  src="/images/hero/hero-restaurant.jpeg"
+  alt="New Iona's Restaurant"
+  fill
+  className="object-cover"
+/>
 
     <div className="absolute inset-x-0 bottom-0 h-[46%] bg-gradient-to-t from-black/25 to-transparent" />
 
