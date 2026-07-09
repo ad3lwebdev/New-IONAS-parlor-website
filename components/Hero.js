@@ -68,27 +68,33 @@ export default function Hero() {
           </div>
         </div>
 
-        <Reveal delay={120} className="mx-auto w-full max-w-[420px]">
-          <div className="relative aspect-[4/5] overflow-hidden rounded-sm shadow-card">
+       <Reveal delay={120} className="mx-auto w-full max-w-[420px]">
+  <div className="relative aspect-[4/5] overflow-hidden rounded-sm shadow-card">
 
-            <img
-                  src="public/images/hero-restaurant.jpg"
-                    alt="Restaurant"
-                  className="h-full w-full object-cover"
-                          />
-              
-            <div className="absolute inset-x-0 bottom-0 h-[46%] bg-gradient-to-t from-black/25 to-transparent" />
-            <div className="absolute inset-x-5 bottom-5 flex items-end justify-between font-mono text-[11px] text-paperLight">
-              <div>
-                <strong className="mb-1 block font-display text-lg font-semibold not-italic">
-                  Mabini St. corner
-                </strong>
-                Poblacion 38, Infanta
-              </div>
-              <div>6AM&ndash;8PM</div>
-            </div>
-          </div>
-        </Reveal>
+    <img
+      src="public/images/hero/hero-restaurant.jpeg"
+      alt="New Iona's Restaurant"
+      className="h-full w-full object-cover"
+    />
+
+    <div className="absolute inset-x-0 bottom-0 h-[46%] bg-gradient-to-t from-black/25 to-transparent" />
+
+    <div className="absolute inset-x-5 bottom-5 flex items-end justify-between font-mono text-[11px] text-paperLight">
+      <div>
+        <strong className="mb-1 block font-display text-lg font-semibold not-italic">
+          Mabini St. corner
+        </strong>
+        Poblacion 38, Infanta
+      </div>
+
+      <div>
+        6AM–8PM
+      </div>
+
+    </div>
+
+  </div>
+</Reveal>
       </div>
     </section>
   );
