@@ -92,7 +92,7 @@ const dishes = [
     category: "Desserts",
     price: "best with coffee",
     tone: "annatto",
-     image: "/images/suman.jpeg",
+     image: "/images/menu/suman.jpeg",
     desc: "Sticky rice cake steamed in leaves, served plain or paired with ripe mango — the way most meals here end.",
   },
 ];
