@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F3E8CE;
+  color: #2A2118;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.dashed-rule {
+  background-image: linear-gradient(to right, #D9C8A4 60%, transparent 0%);
+  background-size: 14px 1px;
+  background-repeat: repeat-x;
+  height: 1px;
+}
+
+.postmark {
+  position: relative;
+}
+.postmark::before {
+  content: "";
+  position: absolute;
+  inset: 8px;
+  border: 1px dashed currentColor;
+  border-radius: 9999px;
+  opacity: 0.5;
+}
