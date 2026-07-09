@@ -83,18 +83,12 @@ export default function Location() {
         <Reveal delay={140}>
           <div className="overflow-hidden rounded-sm border border-line bg-paperLight shadow-soft">
             <div className="relative aspect-[4/3]">
-              <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" className="h-full w-full">
-                <rect width="400" height="300" fill="#336B7A" />
-                <polygon points="0,150 400,110 400,300 0,300" fill="#E9D9AE" />
-                <polygon points="0,150 130,70 260,150" fill="#2F5233" opacity="0.9" />
-                <polygon points="120,150 240,50 360,150" fill="#1B3020" opacity="0.9" />
-                <line x1="0" y1="190" x2="400" y2="170" stroke="#C6982F" strokeWidth="4" strokeDasharray="8 6" />
-                <circle cx="200" cy="182" r="9" fill="#B8451F" />
-                <circle cx="200" cy="182" r="16" fill="none" stroke="#B8451F" strokeWidth="2" />
-                <text x="200" y="210" textAnchor="middle" fontFamily="'Space Mono', monospace" fontSize="10" fill="#2A2118">
-                  POBLACION 38
-                </text>
-              </svg>
+              <iframe
+            src="https://maps.google.com/maps?q=New%20Iona's%20Refreshment%20Parlor%20Infanta%20Quezon&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            className="h-full w-full border-0"
+          loading="lazy"
+          allowFullScreen
+            />
             </div>
             <div className="flex flex-wrap items-center justify-between gap-4 p-6">
               <span className="font-mono text-[12.5px] text-inkSoft">
