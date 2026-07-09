@@ -28,6 +28,7 @@ const dishes = [
     category: "Mains",
     price: "signature",
     tone: "forest",
+    image: "/images/menu/sinigang_isda.jpeg",
     desc: "The parlor's current signature — a sour fish soup loaded with vegetables, simmered fresh throughout the day.",
   },
   {
@@ -35,6 +36,7 @@ const dishes = [
     category: "Mains",
     price: "comfort bowl",
     tone: "annatto",
+     image: "/images/menu/nilagang_kalabaw.jpeg",
     desc: "A clear, slow-simmered carabao broth — the dish locals order when they want something honest and warm.",
   },
   {
@@ -42,6 +44,7 @@ const dishes = [
     category: "Breakfast",
     price: "breakfast fave",
     tone: "forest",
+    image: "/images/menu/nilagang_kalabaw.jpeg",
     desc: "Fern fiddlehead tops folded into egg — a morning staple built from what grows wild around the mountain side of town.",
   },
   {
@@ -49,6 +52,7 @@ const dishes = [
     category: "Breakfast",
     price: "with rice & egg",
     tone: "annatto",
+    image: "/images/menu/carabeef_tapa.jpeg",
     desc: "House-cured carabeef tapa, pan-fried and paired with garlic rice — a favorite start for early travelers on the Marilaque route.",
   },
   {
@@ -56,6 +60,7 @@ const dishes = [
     category: "Noodles & Snacks",
     price: "sharing size",
     tone: "brass",
+    image: "/images/menu/palabok_rice.jpeg",
     desc: "Rice noodles in a savory shrimp-and-annatto sauce, topped the classic Filipino way — a merienda-table regular.",
   },
   {
@@ -63,6 +68,7 @@ const dishes = [
     category: "Noodles & Snacks",
     price: "per order",
     tone: "pacific",
+    image: "/images/menu/lumpiang_shanghai.jpeg",
     desc: "Crisp fried spring rolls, a staple side that shows up at nearly every table in the dining room.",
   },
   {
@@ -70,6 +76,7 @@ const dishes = [
     category: "Noodles & Snacks",
     price: "per piece",
     tone: "forest",
+     image: "/images/menu/siopao.jpeg",
     desc: "Soft steamed buns, best ordered alongside a hot cup of local brew for an easy mid-afternoon stop.",
   },
   {
@@ -77,6 +84,7 @@ const dishes = [
     category: "Desserts",
     price: "cooling classic",
     tone: "pacific",
+       image: "/images/menu/halo_halo.jpeg",
     desc: "The parlor's take on the layered shaved-ice classic — the go-to order after a long, warm day in Infanta.",
   },
   {
@@ -84,6 +92,7 @@ const dishes = [
     category: "Desserts",
     price: "best with coffee",
     tone: "annatto",
+     image: "/images/suman.jpeg",
     desc: "Sticky rice cake steamed in leaves, served plain or paired with ripe mango — the way most meals here end.",
   },
 ];
