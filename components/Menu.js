@@ -11,6 +11,7 @@ const dishes = [
     category: "Mains",
     price: "from ₱50",
     tone: "brass",
+    image: "/images/menu/carabeef.jpeg",
     desc: "Melt-in-your-mouth carabao beef slices in a savory house sauce — the dish that's kept regulars coming back since the '70s.",
     featured: true,
   },
