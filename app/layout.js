@@ -25,8 +25,7 @@ const spaceMono = Space_Mono({
 
 export const metadata = {
   title: "New Iona's Refreshment Parlor | Infanta, Quezon since 1977",
-  description:
-    "Infanta's family table since 1977. Carabeef steak, batukarit sisig, sinigang na isda, and heritage Filipino comfort food on Mabini St., Poblacion 38, Infanta, Quezon. Dine-in, takeout, and local delivery.",
+  description: "Infanta's family table since 1977. Carabeef steak, batukarit sisig, sinigang na isda — heritage Filipino comfort food in Poblacion, Infanta, Quezon.",
   keywords: [
     "New Iona's Refreshment Parlor",
     "Infanta Quezon restaurant",
