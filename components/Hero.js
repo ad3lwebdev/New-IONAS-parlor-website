@@ -36,9 +36,8 @@ export default function Hero() {
 
           <Reveal delay={80}>
             <p className="mt-6 max-w-md text-lg text-inkSoft">
-              Carabeef steak, sizzling batukarit sisig, and sinigang na isda simmered the way
-              it&apos;s been done since 1977 &mdash; three generations in, still cooking from the
-              same corner of Mabini St.
+              Serving Infanta since 1977. Try carabeef steak, sisig, and Filipino favorites. Dine-in, takeout, and delivery available.
+
             </p>
           </Reveal>
 
