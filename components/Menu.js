@@ -104,12 +104,13 @@ const toneMap = {
   annatto: "bg-annatto",
 };
 
-function DishMedia({ image, tone }) {
+function DishMedia({ image, tone, name }) {
   return (
     <div className="relative aspect-[5/4] overflow-hidden">
       <img
         src={image}
-        alt="Dish"
+        alt={`${name} - Filipino dish in Infanta, Quezon`}
+        loading="lazy"
         className="h-full w-full object-cover"
       />
 
