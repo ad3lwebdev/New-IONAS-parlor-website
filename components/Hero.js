@@ -36,7 +36,7 @@ export default function Hero() {
 
           <Reveal delay={80}>
             <p className="mt-6 max-w-md text-lg text-inkSoft">
-              Infanta's family table since 1977. Carabeef steak, batukarit sisig, sinigang na isda — heritage Filipino comfort food in Poblacion, Infanta, Quezon.
+              Infanta's family table since 1977. Carabeef steak, batukarit sisig, and sinigang na isda — heritage Filipino comfort food in Poblacion, Infanta, Quezon.
 
             </p>
           </Reveal>
