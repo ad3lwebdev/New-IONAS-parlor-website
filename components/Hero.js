@@ -36,8 +36,7 @@ export default function Hero() {
 
           <Reveal delay={80}>
             <p className="mt-6 max-w-md text-lg text-inkSoft">
-              New Iona's Refreshment Parlor is a well-loved restaurant in Infanta, Quezon,
-                serving Filipino comfort food since 1977...
+              Infanta's family table since 1977. Carabeef steak, batukarit sisig, sinigang na isda — heritage Filipino comfort food in Poblacion, Infanta, Quezon.
 
             </p>
           </Reveal>
